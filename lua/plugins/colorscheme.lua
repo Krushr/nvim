@@ -1,11 +1,16 @@
 return {
-  { "eldritch-theme/eldritch.nvim" },
+  {
+    "scottmckendry/cyberdream.nvim",
+    opts = {
+      transparent = true,
+    },
+  },
 
-  -- Configure LazyVim to load eldritch
+  -- Configure LazyVim to load cyberdream
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "eldritch",
+      colorscheme = "cyberdream",
     },
   },
 }
