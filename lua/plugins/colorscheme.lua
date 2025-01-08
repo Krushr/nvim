@@ -1,16 +1,9 @@
 return {
-  {
-    "scottmckendry/cyberdream.nvim",
-    opts = {
-      transparent = true,
-    },
-  },
-
-  -- Configure LazyVim to load cyberdream
+  -- Configure LazyVim to load tokyonight
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "cyberdream",
+      colorscheme = "tokyonight-night",
     },
   },
 }
